@@ -5,7 +5,7 @@ gltcs_slope_fname    NULL
 halo_shape_fname     NULL
 halo_shape_red_fname NULL
 sod_fname            NULL
-healpix_shear_file   /projects/LastJourney/prlarsen/density_maps_OR/skysim_full/base5000_z_#z_range#_cutout_${healpix}.hdf5
+healpix_shear_file   /projects/LastJourney/prlarsen/density_maps_OR/skysim/base5000_z_#z_range#_cutout_${healpix}.hdf5
 healpix_file true
 healpix_pixels #healpix_group#
 fake_lensing  false
@@ -19,13 +19,13 @@ mask_loc /gpfs/mira-fs0/projects/DarkUniverse_esp/dkorytov/data/Galacticus/#z_ty
 index_loc /gpfs/mira-fs0/projects/DarkUniverse_esp/dkorytov/data/Galacticus/#z_type#/index/v0.4.4_index_${step}.hdf5
 use_slope true
 
-substeps  5
-use_substep_redshift false
+substeps  1
+use_substep_redshift true
 
 recolor false
 
-short     false
-supershort false
+short     true
+supershort true
 cut_small_galaxies false
 cut_small_galaxies_mass 8 
 
